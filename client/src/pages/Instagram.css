@@ -1,0 +1,87 @@
+/* Style for the team container */
+.your-page4 {
+  background-color: rgba(202, 202, 202, 0.894); /* Set the background color to red */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Allows for scrolling if content exceeds viewport */
+}
+.team-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeInUp 1s ease;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style for the team members */
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Style for the member card */
+.member-card {
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+}
+.member-card img {
+  width: 160px;
+  height: 170px;
+  border-radius: 5%;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+}
+
+
+.member-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333; /* Text color */
+}
+
+.member-card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555; /* Text color */
+}
+
+.member-card a {
+  color: #3498db; /* Link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.member-card a:hover {
+  color: #2073b0; /* Link color on hover */
+}

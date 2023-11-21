@@ -1,0 +1,71 @@
+/* Style for the Customer Testimonials container */
+.your-page2 {
+  background-color: rgba(202, 202, 202, 0.894); /* Set the background color to red */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Allows for scrolling if content exceeds viewport */
+}
+.customer-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding:20px;
+  text-align: justify;
+  background-color: #f8f8f8; /* Light gray background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style for headings in Customer Testimonials */
+.customer-container h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for individual testimonials */
+.testimonial {
+  margin-bottom: 30px;
+  border-left: 4px solid #3498db; /* Border color */
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: scale(1.02); /* Scale up on hover */
+}
+
+.testimonial p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.testimonial p:last-child {
+  font-style: italic;
+  color: #777;
+}
+
+/* Add more styles as needed for your Customer Testimonials page */

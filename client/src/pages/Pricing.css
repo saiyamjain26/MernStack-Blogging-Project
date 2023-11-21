@@ -1,0 +1,116 @@
+/* Pricing.css */
+
+/* Add a unique class name to the body element to avoid conflicts */
+
+body.pricing-page-body {
+  background: linear-gradient(45deg, #ff0080, #8000ff); /* Gradient background */
+  min-height: 100vh; /* Ensure full height */
+  margin: 0; /* Remove default body margin */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInUp 1s ease;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Use a class name specific to the Pricing component */
+.pricing-container {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(226, 226, 226, 0.941); /* Semi-transparent white background */
+  border-radius: 15px;
+  animation: fadeInUp 1s ease;
+}
+.pricing-container h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pricing-title {
+  font-size: 5em;
+  color: #333; /* Dark text color */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pricing-plans {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 55%;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.pricing-plan {
+  border: 1px solid #ccc;
+  padding: 110px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  background-color: #fff; /* White background color */
+  margin: 0 10px;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect to pricing plans */
+.pricing-plan:hover {
+  transform: scale(1.05);
+}
+
+.price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #007bff;
+  display: flex;
+  justify-content: center;
+}
+
+.features-list {
+  list-style-type: none;
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  
+}
+
+.features-list li {
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.purchase-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Add hover effect to the purchase button */
+.purchase-button:hover {
+  background-color: #0056b3;
+}
+
+.additional-content h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

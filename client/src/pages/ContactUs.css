@@ -1,0 +1,88 @@
+/* Style for the Contact Us container */
+.your-page1 {
+  background-color: rgba(202, 202, 202, 0.894); /* Set the background color to red */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Allows for scrolling if content exceeds viewport */
+}
+.contact-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: justify;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeInUp 1s ease;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style for headings in Contact Us */
+.contact-us-container h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+/* Style for subheadings in Contact Us */
+.contact-us-container h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-us-container h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #0b098d;
+
+}
+
+/* Style for paragraphs in Contact Us */
+.contact-us-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+/* Style for contact details */
+.contact-details {
+  margin-top: 50px;
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect to contact details */
+.contact-details:hover {
+  transform: scale(1.03);
+}
+
+/* Style for contact form */
+.contact-form {
+  margin-top: 50px;
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect to contact form */
+.contact-form:hover {
+  transform: scale(1.03);
+}
+
+/* Add more styles as needed for your Contact Us page */
